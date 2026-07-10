@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;   
+    box-sizing:border-box;
+}
+/* nav section */
+header{
+    border-top:4px solid white;
+    background:#fff;
+}
+
+nav{
+    width:90%;
+    height:80px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav img{
+    width:140px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#555;
+    font-size:16px;
+}
+
+nav button{
+    padding:12px 24px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
